@@ -1,0 +1,416 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<java version="1.8.0_281" class="java.beans.XMLDecoder">
+ <object class="model.Revuelteria" id="Revuelteria0">
+  <void property="admin">
+   <object class="model.Administrador">
+    <void property="cedula">
+     <int>35</int>
+    </void>
+    <void property="edad">
+     <int>1234</int>
+    </void>
+    <void property="nombre">
+     <string>javier</string>
+    </void>
+    <void property="revuelteria">
+     <object idref="Revuelteria0"/>
+    </void>
+    <void property="salario">
+     <double>500.0</double>
+    </void>
+   </object>
+  </void>
+  <void property="listaClientes">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="model.Cliente">
+      <void property="cedula">
+       <int>123456</int>
+      </void>
+      <void property="direccion">
+       <string>armenia</string>
+      </void>
+      <void property="edad">
+       <int>18</int>
+      </void>
+      <void property="email">
+       <string>cristian@gmail.com</string>
+      </void>
+      <void property="nombre">
+       <string>cristian</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Cliente" id="Cliente0">
+      <void property="cedula">
+       <int>456</int>
+      </void>
+      <void property="direccion">
+       <string>armenia</string>
+      </void>
+      <void property="edad">
+       <int>19</int>
+      </void>
+      <void property="email">
+       <string>juan@gmail.com</string>
+      </void>
+      <void property="nombre">
+       <string>juan jose</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Cliente" id="Cliente1">
+      <void property="cedula">
+       <int>785</int>
+      </void>
+      <void property="direccion">
+       <string>armenia</string>
+      </void>
+      <void property="edad">
+       <int>17</int>
+      </void>
+      <void property="email">
+       <string>aurelio@gmail.com</string>
+      </void>
+      <void property="nombre">
+       <string>aurelio</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="listaEmpleados">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="model.Empleado" id="Empleado0">
+      <void property="cedula">
+       <int>1234</int>
+      </void>
+      <void property="codigo">
+       <int>64</int>
+      </void>
+      <void property="edad">
+       <int>15</int>
+      </void>
+      <void property="nombre">
+       <string>eduardo</string>
+      </void>
+      <void property="salario">
+       <double>200.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Empleado">
+      <void property="cedula">
+       <int>15476</int>
+      </void>
+      <void property="codigo">
+       <int>63</int>
+      </void>
+      <void property="edad">
+       <int>20</int>
+      </void>
+      <void property="nombre">
+       <string>luis</string>
+      </void>
+      <void property="salario">
+       <double>200.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Empleado">
+      <void property="cedula">
+       <int>4846</int>
+      </void>
+      <void property="codigo">
+       <int>62</int>
+      </void>
+      <void property="edad">
+       <int>20</int>
+      </void>
+      <void property="nombre">
+       <string>aurelio</string>
+      </void>
+      <void property="salario">
+       <double>200.0</double>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="listaProductos">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="model.Fruta">
+      <void property="cantidad">
+       <int>30</int>
+      </void>
+      <void property="nombre">
+       <string>manzana</string>
+      </void>
+      <void property="precio">
+       <double>1000.0</double>
+      </void>
+      <void property="tipoFruta">
+       <string>dulce</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Fruta">
+      <void property="cantidad">
+       <int>40</int>
+      </void>
+      <void property="nombre">
+       <string>naranja</string>
+      </void>
+      <void property="precio">
+       <double>500.0</double>
+      </void>
+      <void property="tipoFruta">
+       <string>acida</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Verdura">
+      <void property="cantidad">
+       <int>20</int>
+      </void>
+      <void property="nombre">
+       <string>papa</string>
+      </void>
+      <void property="precio">
+       <double>2000.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Verdura">
+      <void property="cantidad">
+       <int>30</int>
+      </void>
+      <void property="nombre">
+       <string>cilantro</string>
+      </void>
+      <void property="precio">
+       <double>2000.0</double>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="listaUsuarios">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="model.Usuario">
+      <void property="password">
+       <string>123</string>
+      </void>
+      <void property="user">
+       <string>juan</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Usuario">
+      <void property="password">
+       <string>123</string>
+      </void>
+      <void property="user">
+       <string>cristian</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Usuario">
+      <void property="password">
+       <string>123</string>
+      </void>
+      <void property="user">
+       <string>eduardo</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Usuario">
+      <void property="password">
+       <string>123</string>
+      </void>
+      <void property="user">
+       <string>luis</string>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Usuario">
+      <void property="password">
+       <string>123</string>
+      </void>
+      <void property="user">
+       <string>aurelio</string>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="listaVentas">
+   <object class="java.util.ArrayList">
+    <void method="add">
+     <object class="model.Venta">
+      <void property="cliente">
+       <object idref="Cliente1"/>
+      </void>
+      <void property="empleado">
+       <object idref="Empleado0"/>
+      </void>
+      <void property="listaCompra">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="model.Verdura">
+          <void property="cantidad">
+           <int>3</int>
+          </void>
+          <void property="nombre">
+           <string>cebolla</string>
+          </void>
+          <void property="precio">
+           <double>2000.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="model.Verdura">
+          <void property="cantidad">
+           <int>3</int>
+          </void>
+          <void property="nombre">
+           <string>remolacha</string>
+          </void>
+          <void property="precio">
+           <double>2000.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="model.Fruta">
+          <void property="cantidad">
+           <int>4</int>
+          </void>
+          <void property="nombre">
+           <string>sandia</string>
+          </void>
+          <void property="precio">
+           <double>1000.0</double>
+          </void>
+          <void property="tipoFruta">
+           <string>dulce</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="model.Fruta">
+          <void property="cantidad">
+           <int>3</int>
+          </void>
+          <void property="nombre">
+           <string>guanabana</string>
+          </void>
+          <void property="precio">
+           <double>1000.0</double>
+          </void>
+          <void property="tipoFruta">
+           <string>dulce</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+      <void property="precio">
+       <double>3000.0</double>
+      </void>
+     </object>
+    </void>
+    <void method="add">
+     <object class="model.Venta">
+      <void property="cliente">
+       <object idref="Cliente0"/>
+      </void>
+      <void property="empleado">
+       <object idref="Empleado0"/>
+      </void>
+      <void property="listaCompra">
+       <object class="java.util.ArrayList">
+        <void method="add">
+         <object class="model.Verdura">
+          <void property="cantidad">
+           <int>3</int>
+          </void>
+          <void property="nombre">
+           <string>Cebolla</string>
+          </void>
+          <void property="precio">
+           <double>3000.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="model.Verdura">
+          <void property="cantidad">
+           <int>3</int>
+          </void>
+          <void property="nombre">
+           <string>Remolacha</string>
+          </void>
+          <void property="precio">
+           <double>3000.0</double>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="model.Fruta">
+          <void property="cantidad">
+           <int>4</int>
+          </void>
+          <void property="nombre">
+           <string>Sandia</string>
+          </void>
+          <void property="precio">
+           <double>2000.0</double>
+          </void>
+          <void property="tipoFruta">
+           <string>dulce</string>
+          </void>
+         </object>
+        </void>
+        <void method="add">
+         <object class="model.Fruta">
+          <void property="cantidad">
+           <int>3</int>
+          </void>
+          <void property="nombre">
+           <string>Guanabana</string>
+          </void>
+          <void property="precio">
+           <double>2000.0</double>
+          </void>
+          <void property="tipoFruta">
+           <string>dulce</string>
+          </void>
+         </object>
+        </void>
+       </object>
+      </void>
+     </object>
+    </void>
+   </object>
+  </void>
+  <void property="nombre">
+   <string>Revuelteria</string>
+  </void>
+ </object>
+</java>
